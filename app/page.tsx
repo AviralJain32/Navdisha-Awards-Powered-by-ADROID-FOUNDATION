@@ -12,19 +12,19 @@ export default function HomePage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="py-20 px-4 text-center bg-gradient-to-b from-card/30 to-background">
+      <section className="py-10 px-4 text-center bg-gradient-to-b from-card/30 to-background">
         <div className="container mx-auto max-w-4xl">
-          <Badge variant="secondary" className="mb-6 text-sm px-4 py-2">
+          <Badge variant="secondary" className=" text-sm px-4 py-2">
             <Star className="h-4 w-4 mr-2" />
             Open for Nominations Year-Round
           </Badge>
 
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center">
             <Image
               src="/images/navdisha-logo.png"
               alt="Navdisha Awards by Adroid Foundation"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
               className="object-contain"
             />
           </div>
@@ -35,15 +35,15 @@ export default function HomePage() {
           <p className="text-2xl md:text-3xl text-primary mb-4 font-[family-name:var(--font-space-grotesk)] font-medium">
             "Honoring Global Excellence with Indian Wisdom"
           </p>
-          <div className="bg-gradient-to-r from-secondary/20 to-primary/20 rounded-lg p-4 mb-6 inline-block">
-            <p className="text-xl font-bold text-secondary">Powered by</p>
-            <p className="text-2xl font-bold text-primary">ADROID FOUNDATION</p>
-          </div>
+          {/* <div className="bg-gradient-to-r from-secondary/20 to-primary/20 rounded-lg p-4 mb-6 inline-block"> */}
+          
+            <p className="text-xl font-bold text-secondary mb-3">Powered by<span className="text-2xl font-bold text-primary"> ADROID FOUNDATION </span></p>
+          {/* </div> */}
 
-          <p className="text-lg text-muted-foreground mb-2">
+          {/* <p className="text-lg text-muted-foreground mb-2">
             Recognizing excellence in education, research, lifelong learning, skill development, and community
             engagement.
-          </p>
+          </p> */}
           <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-3xl mx-auto">
             The Navdisha Awards for Education, Research & Social Impact recognize excellence in education, research,
             lifelong learning, skill development, and community engagement. These awards celebrate individuals,
