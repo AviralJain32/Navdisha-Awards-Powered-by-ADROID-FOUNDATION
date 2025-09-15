@@ -70,7 +70,7 @@ export async function POST(req: Request) {
       range: "Sheet1!A1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [Object.values(parsed)], // put all values in a row
+        values: [Object.values(parsed)], 
       },
     });
 
