@@ -52,8 +52,8 @@ export default function ContactPage() {
                 </p>
                 <div className="space-y-2">
                   <p className="font-medium">General Inquiries:</p>
-                  <a href="mailto:adroidconnectz@gmail.com" className="text-primary hover:underline">
-                    adroidconnectz@gmail.com
+                  <a href="mailto:Support@adroid.foundation" className="text-primary hover:underline">
+                    Support@adroid.foundation
                   </a>
                 </div>
               </CardContent>

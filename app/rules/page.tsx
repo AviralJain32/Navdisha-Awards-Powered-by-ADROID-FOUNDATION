@@ -422,7 +422,7 @@ export default function RulesPage() {
                   <p className="text-muted-foreground text-sm">
                     Our refund policy ensures that customers are eligible for a refund if the organization fails to
                     deliver digital products/materials within 14 days or physical products/materials within 21 days. To
-                    initiate a refund, simply send an email to adroidconnectz@gmail.com and our team will assist you
+                    initiate a refund, simply send an email to Support@adroid.foundation and our team will assist you
                     promptly.
                   </p>
                 </div>
@@ -432,7 +432,7 @@ export default function RulesPage() {
                   <div className="space-y-1 text-sm text-green-700 dark:text-green-300">
                     <p>• Digital materials: 14 days maximum delivery</p>
                     <p>• Physical materials: 21 days maximum delivery</p>
-                    <p>• Contact: adroidconnectz@gmail.com for refund requests</p>
+                    <p>• Contact: Support@adroid.foundation for refund requests</p>
                   </div>
                 </div>
               </CardContent>

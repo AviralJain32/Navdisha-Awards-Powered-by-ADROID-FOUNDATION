@@ -16,7 +16,7 @@ export function Navbar() {
     { href: "/categories", label: "Categories" },
     { href: "/nominate", label: "Nominate" },
     { href: "/rules", label: "Rules" },
-    { href: "/donation", label: "Donate" },
+    { href: "/donate", label: "Donate" },
     { href: "/contact", label: "Contact" },
   ]
 
