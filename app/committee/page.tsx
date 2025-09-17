@@ -1,47 +1,49 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
+import { Navbar } from "@/components/navbar"
 
 export default function CommitteePage() {
   const academicMembers = [
     {
       name: "Oscar Castillo",
       institution: "Tijuana Institute Technology, Tijuana, Mexico",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/OscarSir.webp",
     },
     {
       name: "Aboul Ella Hassanien",
       institution: "Cairo University, Egypt",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/AboulSir.jpeg",
     },
     {
       name: "George A. Tsihrintzis",
       institution: "University of Piraeus, Greece",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/GeorgeSir.jpeg",
     },
     {
       name: "Joel J. P. C. Rodrigues",
       institution: "Federal University of Piauí, Brazil",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/JoelSir.jpeg",
     },
     {
       name: "Ali Kashif Bashir",
       institution: "Manchester Metropolitan University, UK",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/AliSir.webp",
     },
     {
       name: "Yang Xiao",
       institution: "The University of Alabama, USA",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/YangSir.jpeg",
     },
     {
       name: "Deepak Gupta",
       institution: "Maharaja Agrasen Institute of Technology, Delhi",
-      imageUrl: "/academic-portrait.png",
+      imageUrl: "/images/committee/DeepakSir.jpg",
     },
   ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20">
+      <Navbar />
       <div className="container mx-auto px-4 py-16">
         {/* Header Section */}
         <div className="text-center mb-16">
@@ -70,7 +72,7 @@ export default function CommitteePage() {
               <div className="flex flex-col md:flex-row items-center gap-6">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/professional-portrait-chairperson.jpg"
+                    src="/images/committee/RavindraSir.jpg"
                     alt="Sh. Ravinder Gupta"
                     width={200}
                     height={200}
@@ -105,9 +107,9 @@ export default function CommitteePage() {
                       <Image
                         src={member.imageUrl || "/placeholder.svg"}
                         alt={member.name}
-                        width={150}
+                        width={180}
                         height={150}
-                        className="rounded-full object-cover mx-auto border-2 border-primary/20"
+                        className="rounded-4xl object-fill mx-auto border-2 border-primary/20"
                       />
                     </div>
                     <h3 className="text-xl font-bold text-primary mb-2">{member.name}</h3>

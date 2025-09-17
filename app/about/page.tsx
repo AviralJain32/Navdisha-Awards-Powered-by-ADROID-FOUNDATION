@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/navbar"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
@@ -21,6 +22,8 @@ export default function AboutPage() {
   ]
 
   return (
+    <>
+    <Navbar />
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">
@@ -180,5 +183,6 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }
