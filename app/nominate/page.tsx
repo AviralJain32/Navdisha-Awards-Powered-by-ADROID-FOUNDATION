@@ -666,7 +666,6 @@ import {
   Info,
   Loader2,
 } from "lucide-react";
-import { Navbar } from '@/components/navbar';
 
 // Zod validation schema
 const nominationSchema = z.object({
@@ -852,7 +851,6 @@ export default function NominationForm() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       {/* Hero Section */}
       <section className="py-16 px-4 bg-gradient-to-b from-card/30 to-background">
         <div className="container mx-auto max-w-4xl">

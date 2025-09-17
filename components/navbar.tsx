@@ -13,10 +13,12 @@ export function Navbar() {
 
   const navItems = [
     { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/committee", label: "Committee" }, // Added Committee page link
     { href: "/categories", label: "Categories" },
     { href: "/nominate", label: "Nominate" },
     { href: "/rules", label: "Rules" },
-    { href: "/donate", label: "Donate" },
+    { href: "/donation", label: "Donate" },
     { href: "/contact", label: "Contact" },
   ]
 
