@@ -58,7 +58,7 @@ export default function RulesPage() {
             <Button variant="outline" className="h-auto p-4 flex flex-col items-center bg-transparent" asChild>
               <a href="#refund">
                 <RefreshCw className="h-6 w-6 mb-2" />
-                Refund Policy
+                Refund Policy (Donations)
               </a>
             </Button>
           </div>
@@ -401,7 +401,7 @@ export default function RulesPage() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 font-[family-name:var(--font-space-grotesk)]">
-              Refund Policy
+              Refund Policy (Donations)
             </h2>
             <p className="text-lg text-muted-foreground">
               Terms and conditions governing refunds for award applications
